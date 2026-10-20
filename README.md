@@ -9,7 +9,7 @@ Cost Efficiency: Acquiring a new customer costs significantly more than retainin
 
 Reducing Revenue Leakage: By predicting customer churn trends, companies can minimize customer loss and improve long-term revenue stability.
 
-4. Step-by-Step Technical Execution:
+Step-by-Step Technical Execution:
 5. Step 1: Data Collection & UnderstandingI used the benchmark Telco Customer Churn dataset from Kaggle, which contains customer demographic details, account tenure, services subscribed, and payment information.
 6. Step 2: Data Cleaning & PreprocessingThe raw data contained non-numeric text columns and missing values in fields like TotalCharges.I handled missing values using median imputation and converted text data types into proper numeric types.Since machine learning models only understand numbers, I applied Label Encoding to convert categorical string columns (like contract type, payment method, and gender) into numeric formats. I also dropped unique identifier columns like customerID as they have no predictive value.
 7. Step 3: Feature Selection & Train-Test SplitI separated the dataset into independent feature variables ($X$) containing customer metrics and the target variable ($y$) as Churn (0 for retained, 1 for churned).I split the dataset into an 80% training set and 20% testing set using Scikit-Learn's train_test_split to ensure unbiased model evaluation.
