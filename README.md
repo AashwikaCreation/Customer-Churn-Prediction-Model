@@ -2,8 +2,11 @@
 The primary reason I chose this project is because customer retention is one of the biggest challenges for subscription and service-based industries like telecom, SaaS, and e-commerce. As an aspiring data scientist, I wanted to work on a classification problem where the goal is to predict a binary outcome whether a customer will stay or leave. 
 
 2. How It Helps the Business:
+   
 Proactive Retention Strategies: It helps companies identify high-risk customers before they cancel their subscriptions, allowing businesses to offer them special discounts or better support.
+
 Cost Efficiency: Acquiring a new customer costs significantly more than retaining an existing one. This model helps marketing and customer success teams focus their retention budget only on the customers who are most likely to churn.
+
 Reducing Revenue Leakage: By predicting customer churn trends, companies can minimize customer loss and improve long-term revenue stability.
 
 4. Step-by-Step Technical Execution:
